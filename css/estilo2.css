@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Fascinate+Inline|Gloria+Hallelujah');
+body{
+	background: url(../img/bg.jpg)center center fixed;
+	background-size: cover;
+}
+img{
+	margin: 10px;
+	width: 350px;
+	height: 250px;
+	border: 7px solid #234;
+	box-shadow: 7px 7px 10px 3px #000;
+}
+/*QUANDO PASSAR O MOUSE */
+img:hover{
+	opacity: 0.7;
+	cursor: pointer;
+	border-radius: 50%;
+	/* DURAÇAO DA ANIMAÇAO */
+	transition-duration: 1s;
+	/* ROTAÇAO DA BORDA */
+	-webkit-transform: rotate(1145deg);
+	-webkit-filter: sepia(1);
+}
+	div{
+		margin-left: 40%;
+		background-color: rgba(255,255,255, 0.5);
+		width: 390px;
+	}
+	h1 ,h3{
+		color:#249;
+		text-shadow: 5px 1px 13px #000;
+		font-family: 'Indie Flower', cursive;
+		font-size: 350%;
+	}
+	h1:hover{
+		color:orange;
+		cursor:pointer;
+	}
+	h1{
+		font-family: 'Gloria Hallelujah', cursive;
+	}

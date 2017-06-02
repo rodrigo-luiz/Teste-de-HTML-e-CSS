@@ -1,0 +1,29 @@
+body{
+	background-color: black;
+}
+h3, p, em{
+	color:#fff;
+}
+p{
+	white-space: pre-wrap;	
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+a:visited,h3{
+	color: white;
+}
+a:hover{
+	color: green;
+}
+video{
+	position:fixed;
+	left:50%;
+	bottom:500px;
+}
+img{
+	position: fixed;
+	left:50%;
+	bottom: 200px;
+}
